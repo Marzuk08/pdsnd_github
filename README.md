@@ -14,4 +14,7 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-Mode.com
+Website
+  Mode.com
+GitHub repo
+	khaledimad
