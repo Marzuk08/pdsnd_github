@@ -65,6 +65,7 @@ def load_data(city, month, day):
 
     # Creating month column from Start Time column
     df['month'] = df['Start Time'].dt.month
+
     # Creating Day Of Week column from Start Time column
     df['day_of_week'] = df['Start Time'].dt.weekday_name
 
@@ -174,6 +175,7 @@ def user_stats(df, city):
             i = i+5
         else:
             break
+
 
 def main():
     while True:
